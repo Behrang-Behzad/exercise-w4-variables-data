@@ -84,4 +84,4 @@ Should give you => "Today we have a special winter deal!"
 const specialDeal = "Today we have a special summer deal!";
 console.log(specialDeal);
 console.log(specialDeal.replace("summer", "winter"));
-console.log(specialDeal);
+console.log(specialDeal); // The original string is unchanged because strings are immutable in JavaScript.
